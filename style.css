@@ -16,7 +16,7 @@ html , body{
 .main{
   background-color:#FAFAFA;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #cursor{
     height: 1vw;
