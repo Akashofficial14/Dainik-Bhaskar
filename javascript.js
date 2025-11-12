@@ -476,10 +476,11 @@ bollywoodNewsHindi.forEach((val)=>{
 bollywoodCards.innerHTML=sum
 }
 bollywoodCategory()
-
+var input =document.querySelector("#inp")
 var send=document.querySelector("#submit")
-send.addEventListener("click",function(val){
+send.addEventListener("click",function(dets){
   alert("Thank You For Sending Your Valuable Feedback.")
+  input.value=""
 })
 
 function page1Animation(){
