@@ -257,6 +257,11 @@ header h2:hover{
 }
 .part1 h3:hover{
   background-color:rgb(226, 62, 62);
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.part1 h3:active{
+  scale: 0.95;
 }
 .carousel-container{
   height: 80%;
@@ -396,9 +401,19 @@ header h2:hover{
 }
 .part2a h2:hover{
  background-color: rgb(226, 62, 62);
+ cursor: pointer;
+ transition: all ease 0.2s;
+}
+.part2a h2:active{
+  scale: 0.95;
+}
+.part2b h2:active{
+  scale: 0.95;
 }
 .part2b h2:hover{
  background-color: rgb(226, 62, 62);
+  cursor: pointer;
+ transition: all ease 0.2s;
 }
 .part2a p{
   font-size: 20px;
@@ -478,14 +493,28 @@ padding: 15px 25px;
   margin-left: 20px;
   border-radius: 10px;
   font-size: 25px;
-  width: 150px;
   font-weight: 500;
+  /* width: 150px; */
 padding: 10px 20px;
 background-color:#001538 ;
 color: white;
 }
+.cri{
+  width: 125px;
+}
+.ele{
+  width: 132px;
+}
+.ind{
+  width: 100px;
+}
+.bol{
+  width: 163px;
+}
 #cricket:hover{
   background-color:rgb(226, 62, 62) ;
+   cursor: pointer;
+ transition: all ease 0.2s;
 }
 .contain{
   height: 90%;
